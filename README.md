@@ -12,3 +12,4 @@
  - startup program on host boot
  - run in the background
  - file removal/deletion if accessed or quarantined 
+ - parser for keyloggs
