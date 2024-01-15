@@ -25,11 +25,11 @@ for line in f:
         output_string += character.findall(line)[0]
     except:
         continue
-    try:
-        value = key_value.findall(line)[0]
-        output_string += key_value.findall(line)[0] + '\n'
-    except:
-        continue
+    # try:
+    #     value = key_value.findall(line)[0]
+    #     output_string += key_value.findall(line)[0] + '\n'
+    # except:
+    #     continue
 
 # matches = date.findall(value)
 # print(matches)
