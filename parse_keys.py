@@ -8,16 +8,20 @@ key_value = re.compile(r'\bKey.\w{1,10}\b')
 key_space = re.compile(r'Key.space')
 key_enter = re.compile(r'Key.enter')
 key_backspace = re.compile(r'Key.backspace')
-# 2021-05-20 17:25:10,743: 'h'
-# 2021-05-20 17:25:16,344: '\x01'
-# 2021-05-20 17:25:16,679: Key.backspace
+key_ctr_l = (r'Key.ctrl_l')
+key_ctr_l = (r'Key.ctrl_r')
+key_alt_l = (r'Key.alt_l')
+key_alt_r = (r'Key.alt_r')
+key_tab = (r'Key.tab')
+key_cmd = (r'Key.cmd')
+key_ctr_shift = (r'Key.shift')
+key_ctr_lrud = (r'\bKey.{left,right,up,down}\b')
+key_hex = (r'\x{}{}')
 
 # non printable characters:
 # https://condor.depaul.edu/sjost/lsp121/documents/ascii-npr.htm
 
 # TODO:
-# how to add the Key.??? or the \x01 in??
-# could hardcode each Key.??? since they are limited
 
 output_string = ''
 f = open('keylogs.txt', 'r')
