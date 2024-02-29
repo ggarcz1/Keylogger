@@ -26,9 +26,7 @@ key_hex = (r'\x{}{}')
 output_string = ''
 f = open('keylogs.txt', 'r')
 for line in f:
-    # value = character.findall(line)
-    # print()
-    # matches = character.findall(line)
+
     try:
         value = character.findall(line)
         space_search = key_space.findall(line)
@@ -44,11 +42,11 @@ for line in f:
         # backspace
         elif(len(backspace_search) != 0):
             output_string += '<BSPACE>'
-        # char value
+        # char or numerical value
         elif(len(value) != 0):
             output_string += value[0]
-        # else:
-        #     output_string += 'UNKNOWN\n'
+        else:
+            output_string += line[25:]
             
     except:
         continue
