@@ -1,0 +1,10 @@
+2. Windows:
+You can create a shortcut in the Startup folder to run your Python program at startup:
+
+Press Win + R to open the Run dialog, then type shell:startup and press Enter. This will open the Startup folder.
+Right-click in the Startup folder and select New > Shortcut.
+In the "Create Shortcut" window, browse to the Python executable (python.exe) and provide the full path to it. Then add the path to your Python script as an argument. For example:
+plaintext
+Copy code
+"C:\Path\To\python.exe" "C:\Path\To\your_script.py"
+Click "Next" and provide a name for the shortcut, then click "Finish".
