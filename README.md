@@ -2,6 +2,11 @@
 
 Loading...
 
+*For Developers*:\
+To generate required libraries, run the following: \
+```pip install pipreqs```\
+```pipreqs . --force```
+
 ### TODO
 1. Make calculator legitimate (aka make it work)
 2. Deploy as an exe app

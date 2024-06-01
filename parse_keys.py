@@ -29,7 +29,7 @@ key_d = re.compile(r'Key.down')
 
 # TODO:
 def log(data) -> None:
-    f_write = open('Parse_logs.txt' 'a')
+    f_write = open('Parse_logs.txt', 'w')
     f_write.write(data)
     f_write.close()
 
