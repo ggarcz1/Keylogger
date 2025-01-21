@@ -1,73 +1,41 @@
-there are a fw<BSPACE>ew things to typeKey.ctrl_l
-'\x01'
-<BSPACE>Key.ctrl_l
-Key.ctrl_l
-'\x03'
+there are a fw<BSPACE>ew things to type<CTRL_L>'\x01'
+<BSPACE><CTRL_L><CTRL_L>'\x03'
 '\x16'
 '\x1a'
-Key.ctrl_l
-Key.ctrl_l
-'\x03'
+<CTRL_L><CTRL_L>'\x03'
 '\x03'
 '\x1a'
 '\x1a'
 '\x1a'
 '\x18'
 task
-typing t<BSPACE>in this window works<SHIFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><BSPACE>Key.ctrl_l
+typing t<BSPACE>in this window works<SHIFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><LEFT><BSPACE><CTRL_L>'\x13'
 '\x13'
-'\x13'
-Key.ctrl_l
-Key.ctrl_l
-Key.ctrl_l
-Key.ctrl_l
-Key.ctrl_l
-Key.ctrl_l
-Key.ctrl_l
-Key.ctrl_l
-Key.ctrl_l
-Key.ctrl_l
-'\x1a'
+<CTRL_L><CTRL_L><CTRL_L><CTRL_L><CTRL_L><CTRL_L><CTRL_L><CTRL_L><CTRL_L><CTRL_L>'\x1a'
 '\x18'
 '\x03'
 deos this work<SHIFT>'?'
-code is onKey.ctrl_l
-'\x13'
+code is on<CTRL_L>'\x13'
 jdjskdkdsksdkskks
-Key.ctrl_l
-'\x03'
+<CTRL_L>'\x03'
 '\x16'
 '\x1a'
 '\x1a'
-Key.ctrl_l
+<CTRL_L>'\x1a'
 '\x1a'
-'\x1a'
-Key.ctrl_l
-'\x1a'
-Key.ctrl_l
-'\x1a'
-Key.ctrl_l
-'\x03'
-Key.ctrl_l
-'\x03'
-Key.ctrl_l
-'\x03'
-Key.ctrl_l
-'\x16'
-Key.alt_l
-<TAB><TAB><TAB><TAB><TAB><TAB><TAB><TAB><TAB><TAB>Key.ctrl_l
-'\x03'
-Key.ctrl_l
-'\x16'
-Key.ctrl_l
-'\x03'
+<CTRL_L>'\x1a'
+<CTRL_L>'\x1a'
+<CTRL_L>'\x03'
+<CTRL_L>'\x03'
+<CTRL_L>'\x03'
+<CTRL_L>'\x16'
+<ALT_L><TAB><TAB><TAB><TAB><TAB><TAB><TAB><TAB><TAB><TAB><CTRL_L>'\x03'
+<CTRL_L>'\x16'
+<CTRL_L>'\x03'
 youtube
 how t <BSPACE>o pa<BSPACE><BSPACE>make pizza
-Key.alt_l
-<TAB>here is a sc<BSPACE>entece to test teh<BSPACE><BSPACE><BSPACE><BSPACE>if there is a cet<BSPACE>rtian numer Key.alt_l
-<TAB><CMD>note
-Key.ctrl_l
-'\x0e'
+<ALT_L><TAB>here is a sc<BSPACE>entece to test teh<BSPACE><BSPACE><BSPACE><BSPACE>if there is a cet<BSPACE>rtian numer <ALT_L><TAB><CMD>note
+<CTRL_L>'\x0e'
 i need to type 100 workds<BSPACE><BSPACE><BSPACE>ds for the keylogger to send the h<BSPACE>data that i am typing toa <BSPACE><BSPACE><BSPACE><BSPACE><BSPACE><BSPACE><BSPACE><BSPACE><BSPACE><BSPACE><BSPACE><BSPACE><BSPACE><BSPACE><BSPACE><BSPACE><BSPACE><BSPACE><BSPACE><BSPACE><BSPACE><BSPACE><BSPACE><BSPACE><BSPACE><SHIFT>Thurd<BSPACE>sday <SHIFT>IT 185 <SHIFT>Chrstian <SHIFT>Bo<BSPACE>rotherts <BSPACE><BSPACE><BSPACE>s <SHIFT>Automotive 19020 <SHIFT>MidwayRore is some code that i am going to type'.'
 
 for isx in range<SHIFT>'('
@@ -82,7 +50,9 @@ hello <SHIFT>'"'
  str<SHIFT>'('
 is<BSPACE>dx<SHIFT>')'
 
-Key.ctrl_l
-'\x03'
-Key.ctrl_l
-'\x03'
+<CTRL_L>'\x03'
+<CTRL_L>'\x03'
+does this show up<SHIFT>'>'
+<BSPACE><SHIFT>'?'
+
+<CTRL_L>'\x03'

@@ -16,12 +16,10 @@ key_l = re.compile(r'Key.left')
 key_r = re.compile(r'Key.right')
 key_u = re.compile(r'Key.up')
 key_d = re.compile(r'Key.down')
-
-
-# key_ctr_l = re.compile(r'Key.ctrl_l')
-# key_ctr_l = re.compile(r'Key.ctrl_r')
-# key_alt_l = re.compile(r'Key.alt_l')
-# key_alt_r = re.compile(r'Key.alt_r')
+key_ctr_l = re.compile(r'Key.ctrl_l')
+key_ctr_r = re.compile(r'Key.ctrl_r')
+key_alt_l = re.compile(r'Key.alt_l')
+key_alt_r = re.compile(r'Key.alt_r')
 # key_hex = (r'\x{}{}')
 
 # non printable characters:
@@ -48,42 +46,75 @@ for line in f:
     right_search = key_r.findall(line)
     up_search = key_u.findall(line)
     down_search = key_d.findall(line)
+    ctrl_l_search = key_ctr_l.findall(line)
+    ctrl_r_search = key_ctr_r.findall(line)
+    alt_l_search = key_alt_l.findall(line)
+    alt_r_search = key_alt_r.findall(line)
 
+    # syntax
     # if len(KEYNAME_search) != 0:
     #     output_string += 'value_to_id_key'
     # space
+
     if len(space_search) != 0:
         output_string += ' '
+
     # enter
     elif len(enter_search) != 0:
         output_string += '\n'
+
     # tab
     elif len(tab_search) != 0:
         output_string += '<TAB>'
+
     # cmd
     elif len(cmd_search) != 0:
         output_string += '<CMD>'
+
     # backspace
     elif len(backspace_search) != 0:
         output_string += '<BSPACE>'
+
     # shift
     elif len(shift_search) != 0:
         output_string += '<SHIFT>'
+
     # up
     elif len(up_search) != 0:
         output_string += '<UP>'
+
     # down
     elif len(down_search) != 0:
         output_string += '<DOWN>'
+
     # left
     elif len(left_search) != 0:
         output_string += '<LEFT>'
+
     # right
     elif len(right_search) != 0:
         output_string += '<RIGHT>'
+
+    # ctrl r
+    elif len(ctrl_r_search) != 0:
+        output_string += '<CTRL_R>'
+
+    # ctrl l
+    elif len(ctrl_l_search) != 0:
+        output_string += '<CTRL_L>'
+
+    # alt r
+    elif len(alt_r_search) != 0:
+        output_string += '<ALT_R>'
+
+    # alt l
+    elif len(alt_l_search) != 0:
+        output_string += '<ALT_L>'
+
     # char or numerical value
     elif len(value) != 0:
         output_string += value[0]
+
     else:
         # remove new line
         # output_string += line[25:][:-1]
